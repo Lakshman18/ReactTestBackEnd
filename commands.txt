@@ -1,0 +1,4 @@
+Scaffold-DbContext "Server=.\SQLEXPRESS;Database=SchoolDB;Trusted_Connection=True; TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities
+
+Scaffold-DbContext "Server=.\SQLEXPRESS;Database=SchoolDB;Trusted_Connection=True; TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities -Tables AllocateSubjects, Teacher, Subject -f
+

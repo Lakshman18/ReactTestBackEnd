@@ -1,0 +1,14 @@
+E:\ReactTest\Server\APP.DAL\bin\Debug\net6.0\APP.DAL.deps.json
+E:\ReactTest\Server\APP.DAL\bin\Debug\net6.0\APP.DAL.runtimeconfig.json
+E:\ReactTest\Server\APP.DAL\bin\Debug\net6.0\APP.DAL.dll
+E:\ReactTest\Server\APP.DAL\bin\Debug\net6.0\APP.DAL.pdb
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\APP.DAL.csproj.AssemblyReference.cache
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\APP.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\APP.DAL.AssemblyInfoInputs.cache
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\APP.DAL.AssemblyInfo.cs
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\APP.DAL.csproj.CoreCompileInputs.cache
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\APP.DAL.dll
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\refint\APP.DAL.dll
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\APP.DAL.pdb
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\APP.DAL.genruntimeconfig.cache
+E:\ReactTest\Server\APP.DAL\obj\Debug\net6.0\ref\APP.DAL.dll

@@ -1,0 +1,48 @@
+CREATE DATABASE SchoolDB
+
+CREATE TABLE ClassRoom
+( id  INT NOT NULL    IDENTITY(1,1)    PRIMARY KEY,
+  name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Student
+( id  INT NOT NULL    IDENTITY(1,1)    PRIMARY KEY,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  contact_person VARCHAR(50) NOT NULL,
+  contact_number VARCHAR(50) NOT NULL,
+  email VARCHAR(50)  NOT NULL,
+  dob date,
+  age int,
+  classRoomId int,
+  FOREIGN KEY (classRoomId) REFERENCES ClassRoom(id)
+);
+
+CREATE TABLE Teacher
+( id  INT NOT NULL    IDENTITY(1,1)    PRIMARY KEY,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50),
+  contact_number VARCHAR(50)  NOT NULL,
+  email VARCHAR(50)  NOT NULL
+);
+
+CREATE TABLE Subject
+( id  INT NOT NULL    IDENTITY(1,1)    PRIMARY KEY,
+  name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE AllocateSubjects
+( id  INT NOT NULL    IDENTITY(1,1)    PRIMARY KEY,
+  teacherId INT NOT NULL,
+  subjectId INT NOT NULL,
+  FOREIGN KEY (teacherId) REFERENCES Teacher(id),
+  FOREIGN KEY (subjectId) REFERENCES Subject(id)
+);
+
+CREATE TABLE AllocateClassRooms
+( id  INT NOT NULL    IDENTITY(1,1)    PRIMARY KEY,
+  teacherId INT NOT NULL,
+  classRoomId INT NOT NULL,
+  FOREIGN KEY (teacherId) REFERENCES Teacher(id),
+  FOREIGN KEY (classRoomId) REFERENCES ClassRoom(id)
+);
